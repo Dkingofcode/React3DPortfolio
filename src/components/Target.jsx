@@ -1,4 +1,4 @@
-import React from 'react'
+//import React from 'react'
 import { useGLTF } from '@react-three/drei';
 import { useRef } from 'react';
 import { useGSAP } from '@gsap/react';
