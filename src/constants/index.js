@@ -63,7 +63,7 @@ export const navLinks = [
       subdesc:
         'Built as a unique Software-as-a-Service app with  React, reactQuery and styledComponents',
       href: 'https://project-oasis.vercel.app/',
-      texture: '/textures/project/project1.mp4',
+      texture: '/textures/project/Oasis.mp4',
       logo: '/assets/project-logo1.png',
       logoStyle: {
         backgroundColor: '#2A1816',
@@ -94,59 +94,20 @@ export const navLinks = [
         // },
       ],
     },
-    {
-      title: 'Fast Pizza',
-      desc: 'Pizza Ordering App',
-      subdesc:
-        'With Fast Pizza, users can experience the future of collaboration.',
-      href: 'https://orderpizza-app-mu.vercel.app/',
-      texture: '/textures/project/project2.mp4',
-      logo: '/assets/project-logo2.png',
-      logoStyle: {
-        backgroundColor: '#13202F',
-        border: '0.2px solid #17293E',
-        boxShadow: '0px 0px 60px 0px #2F6DB54D',
-      },
-      spotlight: '/assets/spotlight2.png',
-      tags: [
-        {
-          id: 1,
-          name: 'React.js',
-          path: '/assets/react.svg',
-        },
-        {
-          id: 2,
-          name: 'TailwindCSS',
-          path: 'assets/tailwindcss.png',
-        },
-        // {
-        //   id: 3,
-        //   name: 'TypeScript',
-        //   path: '/assets/typescript.png',
-        // },
-        // {
-        //   id: 4,
-        //   name: 'Framer Motion',
-        //   path: '/assets/framer.png',
-        // },
-      ],
-    },
     // {
-    //   title: 'CarePulse - Health Management System',
-    //   desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
+    //   title: 'Fast Pizza',
+    //   desc: 'Pizza Ordering App',
     //   subdesc:
-    //     'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
-    //   href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
-    //   texture: '/textures/project/project3.mp4',
-    //   logo: '/assets/project-logo3.png',
+    //     'With Fast Pizza, users can experience the future of collaboration.',
+    //   href: 'https://orderpizza-app-mu.vercel.app/',
+    //   texture: '/textures/project/project2.mp4',
+    //   logo: '/assets/project-logo2.png',
     //   logoStyle: {
-    //     backgroundColor: '#60f5a1',
-    //     background:
-    //       'linear-gradient(0deg, #60F5A150, #60F5A150), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)',
-    //     border: '0.2px solid rgba(208, 213, 221, 1)',
-    //     boxShadow: '0px 0px 60px 0px rgba(35, 131, 96, 0.3)',
+    //     backgroundColor: '#13202F',
+    //     border: '0.2px solid #17293E',
+    //     boxShadow: '0px 0px 60px 0px #2F6DB54D',
     //   },
-    //   spotlight: '/assets/spotlight3.png',
+    //   spotlight: '/assets/spotlight2.png',
     //   tags: [
     //     {
     //       id: 1,
@@ -158,6 +119,45 @@ export const navLinks = [
     //       name: 'TailwindCSS',
     //       path: 'assets/tailwindcss.png',
     //     },
+         // {
+        //   id: 3,
+        //   name: 'TypeScript',
+        //   path: '/assets/typescript.png',
+        // },
+        // {
+        //   id: 4,
+        //   name: 'Framer Motion',
+        //   path: '/assets/framer.png',
+        // },
+    //  ],
+   // },
+    {
+      title: 'Fast Pizza - Pizza Ordering App',
+      desc: 'An innovative Ordering platform designed to streamline essential  processes. It simplifies user registration, order scheduling, and Order record management, providing a seamless experience for both food providers and customers.',
+      subdesc:
+        'With a focus on efficiency, Fast Pizza integrates top notch quality practices.',
+      href: 'https://orderpizza-app-mu.vercel.app/',
+      texture: '/textures/project/FastPizza.mp4',
+      logo: '/assets/pizzaLogo.png',
+      logoStyle: {
+        backgroundColor: '#60f5a1',
+        background:
+          'linear-gradient(0deg, #60F5A150, #60F5A150), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)',
+        border: '0.2px solid rgba(208, 213, 221, 1)',
+        boxShadow: '0px 0px 60px 0px rgba(35, 131, 96, 0.3)',
+      },
+      spotlight: '/assets/spotlight3.png',
+      tags: [
+        {
+          id: 1,
+          name: 'React.js',
+          path: '/assets/react.svg',
+        },
+        {
+          id: 2,
+          name: 'TailwindCSS',
+          path: 'assets/tailwindcss.png',
+        },
     //     {
     //       id: 3,
     //       name: 'TypeScript',
@@ -168,9 +168,9 @@ export const navLinks = [
     //       name: 'Framer Motion',
     //       path: '/assets/framer.png',
     //     },
-    //   ],
-    // },
-    // {
+       ],
+     },
+   // {
     //   title: 'Horizon - Online Banking Platform',
     //   desc: 'Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.',
     //   subdesc:
