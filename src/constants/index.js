@@ -100,7 +100,7 @@ export const navLinks = [
       subdesc: 
       "Experience seamless task organization and collaboration with Trello Board, a feature-rich Task Management App designed to enhance productivity. Whether you're managing personal to-dos or coordinating team projects, Trello Board provides intuitive drag-and-drop functionality, customizable boards, and real-time updates to ensure every task is tracked and completed efficiently. Unlock the power of collaboration with a visually engaging interface that adapts to your workflow and empowers teams to work smarter together",
       href: 'https://vue-trello-app-eta.vercel.app/',
-      texture: '/textures/project/vue-trello-app-eta.vercel.app__vercelToolbarCode=tXpti1z4btoyY69 - Google Chrome 2024-11-21 00-08-14.mp4',
+      texture: '/textures/project/VueTrelloBoard.mp4',
       logo: '/assets/trelloLogo.jpg',
       logoStyle: {
         background:
@@ -214,7 +214,7 @@ export const navLinks = [
       subdesc:
         'Built with Next.js 14, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
       href: 'https://ai-saas-website-6snp.vercel.app/',
-      texture: '/textures/project/Vite + React and 4 more pages - Personal - Microsoft​ Edge 2024-11-21 01-03-25.mp4',
+      texture: '/textures/project/AIPhotoEditor.mp4',
       logo: '/assets/project-logo5.png',
       logoStyle: {
         backgroundColor: '#1C1A43',
