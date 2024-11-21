@@ -138,7 +138,7 @@ export const navLinks = [
       subdesc:
         'Fast Pizza revolutionizes the way customers and food providers interact by delivering an intuitive and efficient pizza ordering experience. Designed with a customer-first approach, the platform simplifies every step of the process, from quick user registration to hassle-free order scheduling and detailed order record management. With its user-friendly interface and seamless navigation, customers can easily explore menus, customize their orders, and schedule deliveries. For food providers, Fast Pizza ensures streamlined operations with real-time updates, order tracking, and integrated analytics. Built on top-notch quality practices, Fast Pizza guarantees a reliable, efficient, and enjoyable experience for everyone involved.',
       href: 'https://orderpizza-app-mu.vercel.app/',
-      texture: '/textures/project/FastPizza.mp4',
+      texture: '/textures/project/Vite + React and 4 more pages - Personal - Microsoft​ Edge 2024-11-21 01-06-01.mp4',
       logo: '/assets/pizzaLogo.png',
       logoStyle: {
         backgroundColor: '#60f5a1',
@@ -214,7 +214,7 @@ export const navLinks = [
       subdesc:
         'Built with Next.js 14, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
       href: 'https://ai-saas-website-6snp.vercel.app/',
-      texture: '/textures/project/AIPhotoEditor.mp4',
+      texture: '/textures/project/Vite + React and 4 more pages - Personal - Microsoft​ Edge 2024-11-21 01-03-25.mp4',
       logo: '/assets/project-logo5.png',
       logoStyle: {
         backgroundColor: '#1C1A43',
