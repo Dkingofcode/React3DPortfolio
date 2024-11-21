@@ -1,7 +1,9 @@
-import emailjs from '@emailjs/browser';
+//import emailjs from '@emailjs/browser';
 import { useRef, useState } from 'react';
 import useAlert from '../hooks/useAlert.js';
 import Alert from '../components/Alert.jsx';
+//import nodemailer from "nodemailer";
+
 
 const Contact = () => {
   const formRef = useRef();
@@ -23,18 +25,35 @@ const Contact = () => {
     setLoading(true);
 
     try {
-      await emailjs.send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
-        {
-          from_name: form.name,
-          to_name: 'David',
-          from_email: form.email,
-          to_email: 'doladepo128@gmail.com',
-          message: form.message,
+      // await emailjs.send(
+      //   import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
+      //   import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+      //   {
+      //     from_name: form.name,
+      //     to_name: 'David',
+      //     from_email: form.email,
+      //     to_email: 'doladepo128@gmail.com',
+      //     message: form.message,
+      //   },
+      //   import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+      // );
+
+      const response = await fetch('http://localhost:3000/send-email', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
-      );
+        body: JSON.stringify({
+            email: form.email,
+            subject: `Message from ${form.name}`,
+            message: form.message,
+        }),
+    });
+    const data = await response.text();
+    console.log(data);
+    if(response.ok){
+      console.log('Email sent successfully')
+    }
 
       // Call success function after successful email send
       onSuccess();

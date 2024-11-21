@@ -94,48 +94,49 @@ export const navLinks = [
         // },
       ],
     },
-    // {
-    //   title: 'Fast Pizza',
-    //   desc: 'Pizza Ordering App',
-    //   subdesc:
-    //     'With Fast Pizza, users can experience the future of collaboration.',
-    //   href: 'https://orderpizza-app-mu.vercel.app/',
-    //   texture: '/textures/project/project2.mp4',
-    //   logo: '/assets/project-logo2.png',
-    //   logoStyle: {
-    //     backgroundColor: '#13202F',
-    //     border: '0.2px solid #17293E',
-    //     boxShadow: '0px 0px 60px 0px #2F6DB54D',
-    //   },
-    //   spotlight: '/assets/spotlight2.png',
-    //   tags: [
-    //     {
-    //       id: 1,
-    //       name: 'React.js',
-    //       path: '/assets/react.svg',
-    //     },
-    //     {
-    //       id: 2,
-    //       name: 'TailwindCSS',
-    //       path: 'assets/tailwindcss.png',
-    //     },
-         // {
-        //   id: 3,
-        //   name: 'TypeScript',
-        //   path: '/assets/typescript.png',
-        // },
-        // {
-        //   id: 4,
-        //   name: 'Framer Motion',
-        //   path: '/assets/framer.png',
-        // },
-    //  ],
-   // },
+    {
+      title: 'Trello Board',
+      desc: 'Task Management App',
+      subdesc: 
+      "Experience seamless task organization and collaboration with Trello Board, a feature-rich Task Management App designed to enhance productivity. Whether you're managing personal to-dos or coordinating team projects, Trello Board provides intuitive drag-and-drop functionality, customizable boards, and real-time updates to ensure every task is tracked and completed efficiently. Unlock the power of collaboration with a visually engaging interface that adapts to your workflow and empowers teams to work smarter together",
+      href: 'https://vue-trello-app-eta.vercel.app/',
+      texture: '/textures/project/vue-trello-app-eta.vercel.app__vercelToolbarCode=tXpti1z4btoyY69 - Google Chrome 2024-11-21 00-08-14.mp4',
+      logo: '/assets/trelloLogo.jpg',
+      logoStyle: {
+        background:
+          'linear-gradient(0deg, #60F5A150, #60F5A150), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)',
+        border: '0.2px solid rgba(208, 213, 221, 1)',
+        boxShadow: '0px 0px 60px 0px rgba(35, 131, 96, 0.3)',
+      },
+      spotlight: '/assets/spotlight2.png',
+      tags: [
+        {
+          id: 1,
+          name: 'Vuejs',
+          path: '/assets/Vue.js.svg',
+        },
+        {
+          id: 2,
+          name: 'TailwindCSS',
+          path: 'assets/tailwindcss.png',
+        },
+         {
+          id: 3,
+          name: 'TypeScript',
+          path: '/assets/typescript.png',
+        },
+        {
+          id: 4,
+          name: 'Framer Motion',
+          path: '/assets/framer.png',
+        },
+     ],
+   },
     {
       title: 'Fast Pizza - Pizza Ordering App',
       desc: 'An innovative Ordering platform designed to streamline essential  processes. It simplifies user registration, order scheduling, and Order record management, providing a seamless experience for both food providers and customers.',
       subdesc:
-        'With a focus on efficiency, Fast Pizza integrates top notch quality practices.',
+        'Fast Pizza revolutionizes the way customers and food providers interact by delivering an intuitive and efficient pizza ordering experience. Designed with a customer-first approach, the platform simplifies every step of the process, from quick user registration to hassle-free order scheduling and detailed order record management. With its user-friendly interface and seamless navigation, customers can easily explore menus, customize their orders, and schedule deliveries. For food providers, Fast Pizza ensures streamlined operations with real-time updates, order tracking, and integrated analytics. Built on top-notch quality practices, Fast Pizza guarantees a reliable, efficient, and enjoyable experience for everyone involved.',
       href: 'https://orderpizza-app-mu.vercel.app/',
       texture: '/textures/project/FastPizza.mp4',
       logo: '/assets/pizzaLogo.png',
@@ -207,43 +208,43 @@ export const navLinks = [
     //     },
     //   ],
     // },
-    // {
-    //   title: 'Imaginify - AI Photo Manipulation App',
-    //   desc: 'Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.',
-    //   subdesc:
-    //     'Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
-    //   href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
-    //   texture: '/textures/project/project5.mp4',
-    //   logo: '/assets/project-logo5.png',
-    //   logoStyle: {
-    //     backgroundColor: '#1C1A43',
-    //     border: '0.2px solid #252262',
-    //     boxShadow: '0px 0px 60px 0px #635BFF4D',
-    //   },
-    //   spotlight: '/assets/spotlight5.png',
-    //   tags: [
-    //     {
-    //       id: 1,
-    //       name: 'React.js',
-    //       path: '/assets/react.svg',
-    //     },
-    //     {
-    //       id: 2,
-    //       name: 'TailwindCSS',
-    //       path: 'assets/tailwindcss.png',
-    //     },
-    //     {
-    //       id: 3,
-    //       name: 'TypeScript',
-    //       path: '/assets/typescript.png',
-    //     },
-    //     {
-    //       id: 4,
-    //       name: 'Framer Motion',
-    //       path: '/assets/framer.png',
-    //     },
-    //   ],
-    // },
+    {
+      title: 'Imaginify - AI Photo Manipulation App',
+      desc: 'Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology.',
+      subdesc:
+        'Built with Next.js 14, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
+      href: 'https://ai-saas-website-6snp.vercel.app/',
+      texture: '/textures/project/AIPhotoEditor.mp4',
+      logo: '/assets/project-logo5.png',
+      logoStyle: {
+        backgroundColor: '#1C1A43',
+        border: '0.2px solid #252262',
+        boxShadow: '0px 0px 60px 0px #635BFF4D',
+      },
+      spotlight: '/assets/spotlight5.png',
+      tags: [
+        {
+          id: 1,
+          name: 'Nextjs',
+          path: '/assets/Next.js.svg',
+        },
+        {
+          id: 2,
+          name: 'TailwindCSS',
+          path: 'assets/tailwindcss.png',
+        },
+        {
+          id: 3,
+          name: 'TypeScript',
+          path: '/assets/typescript.png',
+        },
+        {
+          id: 4,
+          name: 'Framer Motion',
+          path: '/assets/framer.png',
+        },
+      ],
+    },
   ];
   
   export const calculateSizes = (isSmall, isMobile, isTablet) => {
