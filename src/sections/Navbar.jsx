@@ -31,7 +31,7 @@ const Navbar = () => {
     <header className='fixed top-0 left-0 right-0 z-50 bg-black/90'>
       <div className='max-w-7xl mx-auto'>
         <div className='flex justify-between items-center py-5 mx-auto c-space'>
-         <a href='/' className='text-neutral-400 font-bold text-xl hover:text-white transition-colors'>David</a>
+         <a href='/' className='text-neutral-400  rounded-lg font-bold text-xl hover:text-white transition-colors'><img style={{ border: "1px solid grey", borderRadius: "20px" }} src="/luke-jonesunsplash.jpg" width={40} height={36} alt='logo' /></a>
         
         <button onClick={toggleMenu} className='text-neutral-400 hover:text-white focus:outline-none sm:hidden flex' aria-label="Toggle menu">
             <img src={isOpen ? "assets/open.svg" : "assets/close.svg"}  alt='toggle' className='w-6 h-6' />
